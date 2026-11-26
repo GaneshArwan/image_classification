@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Machine learning data and artifacts
+data/*
+!data/.gitkeep
+artifacts/
+outputs/
+checkpoints/
+models/*.pt
+models/*.pth
+*.onnx
+*.h5
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment, secrets, and OS files
+.env
+.env.*
+*.pem
+*.key
+kaggle.json
+.DS_Store
+Thumbs.db
+
+# Local tooling and workspace notes
+.codegraph/
+docs/maestro/
+PORTFOLIO_GUIDE.md
+.agents/*
+!.agents/AGENTS.md
+!.agents/rules/
+.agents/rules/*
+!.agents/rules/ponytail.md
