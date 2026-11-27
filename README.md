@@ -1,5 +1,6 @@
 # Plant Disease Image Classification
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://image-classification-ganesharwan.streamlit.app/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GaneshArwan/image_classification/blob/main/notebooks/03_colab_plantvillage_train.ipynb)
 
 Leaf disease classifier comparing a from-scratch convolutional baseline against ResNet18 and EfficientNet-B0 transfer learning, paired with Grad-CAM spatial attribution and runtime input guardrails.
@@ -50,6 +51,8 @@ pytest -v
 ```
 
 ### Run Interactive Streamlit App
+Live demo: https://image-classification-ganesharwan.streamlit.app/
+
 ```bash
 streamlit run app.py
 ```
