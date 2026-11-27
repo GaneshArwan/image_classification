@@ -43,8 +43,4 @@ Thumbs.db
 .codegraph/
 docs/maestro/
 PORTFOLIO_GUIDE.md
-.agents/*
-!.agents/AGENTS.md
-!.agents/rules/
-.agents/rules/*
-!.agents/rules/ponytail.md
+.agents/
